@@ -1,0 +1,23 @@
+Passcode for question 1: greenEggsAndHam
+
+data-question2: iHateCplusplus
+
+Passcode for question 3: HTMLRocks
+
+Passcode: JavaScriptRules
+
+Question 5 Passcode: SvelteBeatsReact
+
+Question 6 Passcode: ThisIsJS
+
+Question 7 Passcode: YouFoundMe
+
+Question 8 passcode: coolcoolcool
+
+Question 9 passcode: 2020sucked
+
+Question 10 Passcode: listenToTheBlackKeys
+
+question11: a11yComesFirst
+
+data-question12passcode="iLoveWebDev"
