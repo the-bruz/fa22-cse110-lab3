@@ -1,0 +1,28 @@
+/* Stylesheets for lab3 page */
+
+h1 {
+    color: rgb(0, 191, 225);
+    font-size: 60px;
+    line-height: 0.5em;
+    text-align: center;
+}
+
+h3{
+    color:hsl(187, 16%, 59%);
+}
+
+br {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p {
+    color: #AAA;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration:underline
+}
+
+body{
+    background-color: azure;
+}
