@@ -1,13 +1,33 @@
 /* Stylesheets for lab3 page */
+@font-face{
+    font-family: Oswald;
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@media (max-width: 1000px){
+    h1 {
+        font-size: 30px;
+    }
+}
 
 h1 {
+    display: block;
+    position: static;
     color: rgb(0, 191, 225);
     font-size: 60px;
     line-height: 0.5em;
     text-align: center;
 }
 
-h3{
+h1:hover {
+    font-size: 100px;
+}
+
+h1:active{
+    font-size: 200px;
+}
+
+hr ~ h3{
     color:hsl(187, 16%, 59%);
 }
 
@@ -23,6 +43,66 @@ p {
     text-decoration:underline
 }
 
-body{
+body {
     background-color: azure;
+    padding-top: 50px;
+}
+
+footer {
+    margin:auto;
+    padding: 0 0 10px 0;
+}
+
+.shark {
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    top: 10px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+* {
+    font-family: Oswald;
+}
+
+input[list="dl"], #textarea1{
+    width: 400px;
+    height: 15px;
+}
+
+form button{
+    width: 100px;
+}
+
+form > select{
+    width: 400px;
+}
+
+h1 + h3{
+    color: rgb(0, 191, 225);
+}
+
+h3.h31{
+    color: hsl(187, 16%, 59%)
+}
+
+form{
+    height: 300px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section1 {
+    height: 300px;
+    display: grid;
+    row-gap: 1px;
+    justify-items: center;
+    align-content: start;
 }
